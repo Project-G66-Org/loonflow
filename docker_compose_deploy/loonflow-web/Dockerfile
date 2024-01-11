@@ -1,5 +1,5 @@
-FROM blackholll/loonflow-base:latest
-LABEL maintainer=blackholll@163.com
+FROM gundam1993/loonflow-base:latest
+LABEL maintainer=tommy.huang@student.com
 
 
 RUN python3.10 -m venv /opt/venv/loonflow
