@@ -1,5 +1,5 @@
 FROM centos:7
-LABEL maintainer=blackholll@163.com
+LABEL maintainer=tommy.huang@student.com
 
 RUN mkdir -p /var/log/loonflow & \
     yum install -y wget make mysql-devel gcc gcc-devel python3-devel mysql-devel zlib-devel openssl-devel git automake libtool libffi-devel
