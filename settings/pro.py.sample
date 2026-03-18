@@ -33,7 +33,7 @@ DATABASES = {
             'USER': os.getenv('DB_USER', 'loonflow'),  # Not used with sqlite3.
             'PASSWORD': os.getenv('DB_PASS', '123456'),  # Not used with sqlite3.
             'HOST': os.getenv('DB_HOST', '127.0.0.1'),  # Set to empty string for localhost. Not used with sqlite3.
-            'PORT': '3306',  # Set to empty string for default. Not used with sqlite3.
+            'PORT': os.getenv('DB_PORT', '3306'),  # Set to empty string for default. Not used with sqlite3.
         }
 }
 
